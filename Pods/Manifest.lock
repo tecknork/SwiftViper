@@ -1,0 +1,17 @@
+PODS:
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+  - UIImageColors (1.2.1)
+
+DEPENDENCIES:
+  - SDWebImage (~> 3.8)
+  - UIImageColors (~> 1.2)
+
+SPEC CHECKSUMS:
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+  UIImageColors: 4daac49e88772d37d3f5a02b7abec9f85346497c
+
+PODFILE CHECKSUM: 8ccf39619380b2ae8f04178601423a884fac8a25
+
+COCOAPODS: 1.0.1

@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Bus+CoreDataProperties.swift"
+            timestampString = "501107436.65422"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "Bus"
+            landmarkType = "4">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Bus+CoreDataProperties.swift"
+            timestampString = "501107533.797133"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "Bus"
+            landmarkType = "4">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TravelModel.swift"
+            timestampString = "501276037.559576"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "getDate(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GoEuroTest/NetworkManager.swift"
+            timestampString = "501160863.429524"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "fetchDataFromApi(type:closure:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GoEuroTestTests/GoEuroTestTests.swift"
+            timestampString = "501160036.375368"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "GoEuroTestTests"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GoEuroTestTests.GoEuroTestTests.__deallocating_deinit"
+                  moduleName = "GoEuroTestTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alicohen/Desktop/Projects/GoEuro/GoEuroTest/GoEuroTestTests/GoEuroTestTests.swift"
+                  timestampString = "501161009.679289"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GoEuroTestTests.GoEuroTestTests.init (invocation : Swift.Optional&lt;__ObjC.NSInvocation&gt;) -&gt; GoEuroTestTests.GoEuroTestTests"
+                  moduleName = "GoEuroTestTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alicohen/Desktop/Projects/GoEuro/GoEuroTest/GoEuroTestTests/GoEuroTestTests.swift"
+                  timestampString = "501161009.682064"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GoEuroTestTests.GoEuroTestTests.__allocating_init (invocation : Swift.Optional&lt;__ObjC.NSInvocation&gt;) -&gt; GoEuroTestTests.GoEuroTestTests"
+                  moduleName = "GoEuroTestTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alicohen/Desktop/Projects/GoEuro/GoEuroTest/GoEuroTestTests/GoEuroTestTests.swift"
+                  timestampString = "501161009.685002"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GoEuroTestTests.GoEuroTestTests.init (selector : ObjectiveC.Selector) -&gt; GoEuroTestTests.GoEuroTestTests"
+                  moduleName = "GoEuroTestTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alicohen/Desktop/Projects/GoEuro/GoEuroTest/GoEuroTestTests/GoEuroTestTests.swift"
+                  timestampString = "501161009.687185"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GoEuroTestTests.GoEuroTestTests.__allocating_init (selector : ObjectiveC.Selector) -&gt; GoEuroTestTests.GoEuroTestTests"
+                  moduleName = "GoEuroTestTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alicohen/Desktop/Projects/GoEuro/GoEuroTest/GoEuroTestTests/GoEuroTestTests.swift"
+                  timestampString = "501161009.689661"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GoEuroTestTests.GoEuroTestTests.init () -&gt; GoEuroTestTests.GoEuroTestTests"
+                  moduleName = "GoEuroTestTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alicohen/Desktop/Projects/GoEuro/GoEuroTest/GoEuroTestTests/GoEuroTestTests.swift"
+                  timestampString = "501161009.692381"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GoEuroTestTests.GoEuroTestTests.__allocating_init () -&gt; GoEuroTestTests.GoEuroTestTests"
+                  moduleName = "GoEuroTestTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alicohen/Desktop/Projects/GoEuro/GoEuroTest/GoEuroTestTests/GoEuroTestTests.swift"
+                  timestampString = "501161009.695204"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GoEuroTest/TravelTableViewCell.swift"
+            timestampString = "501279611.215301"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "TravelTableViewCell"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GoEuroTest/ListViewController.swift"
+            timestampString = "501284488.004759"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "122"
+            endingLineNumber = "122"
+            landmarkName = "DepatureAction(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

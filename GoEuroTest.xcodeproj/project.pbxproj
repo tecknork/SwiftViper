@@ -1,0 +1,903 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19DCB55D9A0D33DBE27BF47C /* Pods_GoEuroTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 426BA3DFA354543C6203AA44 /* Pods_GoEuroTestUITests.framework */; };
+		3B51C0307848B6E6BF3825B9 /* Pods_GoEuroTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19D070BADBAF3796E8D81EB0 /* Pods_GoEuroTest.framework */; };
+		6EC6DCFD51D2C487D4DDBA2A /* Pods_GoEuroTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B32A8EE384B69705340B181 /* Pods_GoEuroTestTests.framework */; };
+		C78CFDD61DE05A7800003B5B /* TravelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78CFDD51DE05A7800003B5B /* TravelTableViewCell.swift */; };
+		C78CFDD91DE0D82A00003B5B /* Gilroy-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = C78CFDD71DE0D82A00003B5B /* Gilroy-ExtraBold.otf */; };
+		C78CFDDA1DE0D82A00003B5B /* Gilroy-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = C78CFDD81DE0D82A00003B5B /* Gilroy-Light.otf */; };
+		C78CFDDC1DE0E68A00003B5B /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78CFDDB1DE0E68A00003B5B /* Helper.swift */; };
+		C78CFDDE1DE0FF8600003B5B /* BusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78CFDDD1DE0FF8600003B5B /* BusViewController.swift */; };
+		C78CFDE01DE0FFB900003B5B /* TrainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78CFDDF1DE0FFB900003B5B /* TrainViewController.swift */; };
+		C78CFDE21DE0FFD400003B5B /* FlightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78CFDE11DE0FFD400003B5B /* FlightViewController.swift */; };
+		C7C98E4F1DDE3F1500B59D5E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C98E4E1DDE3F1500B59D5E /* AppDelegate.swift */; };
+		C7C98E511DDE3F1500B59D5E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C98E501DDE3F1500B59D5E /* ViewController.swift */; };
+		C7C98E541DDE3F1500B59D5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7C98E521DDE3F1500B59D5E /* Main.storyboard */; };
+		C7C98E571DDE3F1500B59D5E /* GoEuroTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C7C98E551DDE3F1500B59D5E /* GoEuroTest.xcdatamodeld */; };
+		C7C98E591DDE3F1500B59D5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7C98E581DDE3F1500B59D5E /* Assets.xcassets */; };
+		C7C98E5C1DDE3F1500B59D5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7C98E5A1DDE3F1500B59D5E /* LaunchScreen.storyboard */; };
+		C7C98E671DDE3F1500B59D5E /* GoEuroTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C98E661DDE3F1500B59D5E /* GoEuroTestTests.swift */; };
+		C7C98E721DDE3F1500B59D5E /* GoEuroTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C98E711DDE3F1500B59D5E /* GoEuroTestUITests.swift */; };
+		C7C98EA21DDEE4EE00B59D5E /* TrainEuro+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C98E9C1DDEE4EE00B59D5E /* TrainEuro+CoreDataClass.swift */; };
+		C7C98EA31DDEE4EE00B59D5E /* TrainEuro+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C98E9D1DDEE4EE00B59D5E /* TrainEuro+CoreDataProperties.swift */; };
+		C7C98EA41DDEE4EE00B59D5E /* BusEuro+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C98E9E1DDEE4EE00B59D5E /* BusEuro+CoreDataClass.swift */; };
+		C7C98EA51DDEE4EE00B59D5E /* BusEuro+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C98E9F1DDEE4EE00B59D5E /* BusEuro+CoreDataProperties.swift */; };
+		C7C98EA61DDEE4EE00B59D5E /* AirEuro+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C98EA01DDEE4EE00B59D5E /* AirEuro+CoreDataClass.swift */; };
+		C7C98EA71DDEE4EE00B59D5E /* AirEuro+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C98EA11DDEE4EE00B59D5E /* AirEuro+CoreDataProperties.swift */; };
+		C7C98EAB1DDEFFC600B59D5E /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C98EAA1DDEFFC600B59D5E /* Enums.swift */; };
+		C7C98EAF1DDF01B200B59D5E /* GoEuroSingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C98EAE1DDF01B200B59D5E /* GoEuroSingleton.swift */; };
+		C7C98EB21DDF021100B59D5E /* TravelModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C98EB11DDF021100B59D5E /* TravelModel.swift */; };
+		C7C98EB41DDF0DAD00B59D5E /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C98EB31DDF0DAD00B59D5E /* NetworkManager.swift */; };
+		C7C98EB51DDF185600B59D5E /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C98EB31DDF0DAD00B59D5E /* NetworkManager.swift */; };
+		C7C98EB61DDF190900B59D5E /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C98EAA1DDEFFC600B59D5E /* Enums.swift */; };
+		C7C98EB71DDF190900B59D5E /* TravelModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C98EB11DDF021100B59D5E /* TravelModel.swift */; };
+		C7C98EBB1DDF410100B59D5E /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C98EBA1DDF410100B59D5E /* ListViewController.swift */; };
+		C7C98EBD1DDF411900B59D5E /* ListViewInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C98EBC1DDF411900B59D5E /* ListViewInteractor.swift */; };
+		C7C98EBF1DDF412700B59D5E /* ListViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C98EBE1DDF412700B59D5E /* ListViewPresenter.swift */; };
+		C7C98EC11DDF413D00B59D5E /* ListViewRouting.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C98EC01DDF413D00B59D5E /* ListViewRouting.swift */; };
+		C7C98EC31DDF415400B59D5E /* ListViewAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C98EC21DDF415400B59D5E /* ListViewAssembly.swift */; };
+		C7C98EC81DDF59A000B59D5E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C98EC71DDF59A000B59D5E /* Constants.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C7C98E631DDE3F1500B59D5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7C98E431DDE3F1500B59D5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7C98E4A1DDE3F1500B59D5E;
+			remoteInfo = GoEuroTest;
+		};
+		C7C98E6E1DDE3F1500B59D5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7C98E431DDE3F1500B59D5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7C98E4A1DDE3F1500B59D5E;
+			remoteInfo = GoEuroTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		19D070BADBAF3796E8D81EB0 /* Pods_GoEuroTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoEuroTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B32A8EE384B69705340B181 /* Pods_GoEuroTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoEuroTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3058DDE7024E06D16E40B58E /* Pods-GoEuroTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoEuroTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoEuroTest/Pods-GoEuroTest.release.xcconfig"; sourceTree = "<group>"; };
+		36C815B5470AD72DC5987760 /* Pods-GoEuroTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoEuroTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoEuroTest/Pods-GoEuroTest.debug.xcconfig"; sourceTree = "<group>"; };
+		426BA3DFA354543C6203AA44 /* Pods_GoEuroTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoEuroTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84F59A7EA0714C8BB1F00655 /* Pods-GoEuroTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoEuroTestUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoEuroTestUITests/Pods-GoEuroTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C0AD1A3A46B59275CDDC6D19 /* Pods-GoEuroTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoEuroTestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoEuroTestTests/Pods-GoEuroTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		C78CFDD51DE05A7800003B5B /* TravelTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TravelTableViewCell.swift; sourceTree = "<group>"; };
+		C78CFDD71DE0D82A00003B5B /* Gilroy-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-ExtraBold.otf"; sourceTree = "<group>"; };
+		C78CFDD81DE0D82A00003B5B /* Gilroy-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Light.otf"; sourceTree = "<group>"; };
+		C78CFDDB1DE0E68A00003B5B /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		C78CFDDD1DE0FF8600003B5B /* BusViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusViewController.swift; sourceTree = "<group>"; };
+		C78CFDDF1DE0FFB900003B5B /* TrainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrainViewController.swift; sourceTree = "<group>"; };
+		C78CFDE11DE0FFD400003B5B /* FlightViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlightViewController.swift; sourceTree = "<group>"; };
+		C7C98E4B1DDE3F1500B59D5E /* GoEuroTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoEuroTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7C98E4E1DDE3F1500B59D5E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C7C98E501DDE3F1500B59D5E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C7C98E531DDE3F1500B59D5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C7C98E561DDE3F1500B59D5E /* GoEuroTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GoEuroTest.xcdatamodel; sourceTree = "<group>"; };
+		C7C98E581DDE3F1500B59D5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C7C98E5B1DDE3F1500B59D5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C7C98E5D1DDE3F1500B59D5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7C98E621DDE3F1500B59D5E /* GoEuroTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoEuroTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7C98E661DDE3F1500B59D5E /* GoEuroTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoEuroTestTests.swift; sourceTree = "<group>"; };
+		C7C98E681DDE3F1500B59D5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7C98E6D1DDE3F1500B59D5E /* GoEuroTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoEuroTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7C98E711DDE3F1500B59D5E /* GoEuroTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoEuroTestUITests.swift; sourceTree = "<group>"; };
+		C7C98E731DDE3F1500B59D5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7C98E9C1DDEE4EE00B59D5E /* TrainEuro+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TrainEuro+CoreDataClass.swift"; sourceTree = "<group>"; };
+		C7C98E9D1DDEE4EE00B59D5E /* TrainEuro+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TrainEuro+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		C7C98E9E1DDEE4EE00B59D5E /* BusEuro+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "BusEuro+CoreDataClass.swift"; sourceTree = "<group>"; };
+		C7C98E9F1DDEE4EE00B59D5E /* BusEuro+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "BusEuro+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		C7C98EA01DDEE4EE00B59D5E /* AirEuro+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AirEuro+CoreDataClass.swift"; sourceTree = "<group>"; };
+		C7C98EA11DDEE4EE00B59D5E /* AirEuro+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AirEuro+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		C7C98EAA1DDEFFC600B59D5E /* Enums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		C7C98EAE1DDF01B200B59D5E /* GoEuroSingleton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoEuroSingleton.swift; sourceTree = "<group>"; };
+		C7C98EB11DDF021100B59D5E /* TravelModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TravelModel.swift; sourceTree = "<group>"; };
+		C7C98EB31DDF0DAD00B59D5E /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		C7C98EBA1DDF410100B59D5E /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		C7C98EBC1DDF411900B59D5E /* ListViewInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewInteractor.swift; sourceTree = "<group>"; };
+		C7C98EBE1DDF412700B59D5E /* ListViewPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewPresenter.swift; sourceTree = "<group>"; };
+		C7C98EC01DDF413D00B59D5E /* ListViewRouting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewRouting.swift; sourceTree = "<group>"; };
+		C7C98EC21DDF415400B59D5E /* ListViewAssembly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewAssembly.swift; sourceTree = "<group>"; };
+		C7C98EC71DDF59A000B59D5E /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		D7820683A79D2A42DE0ECED4 /* Pods-GoEuroTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoEuroTestUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoEuroTestUITests/Pods-GoEuroTestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FFB81F98244D3F8481FC643F /* Pods-GoEuroTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoEuroTestTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoEuroTestTests/Pods-GoEuroTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C7C98E481DDE3F1500B59D5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B51C0307848B6E6BF3825B9 /* Pods_GoEuroTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7C98E5F1DDE3F1500B59D5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EC6DCFD51D2C487D4DDBA2A /* Pods_GoEuroTestTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7C98E6A1DDE3F1500B59D5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19DCB55D9A0D33DBE27BF47C /* Pods_GoEuroTestUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30D1350FAC7D1F3E857F688B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				36C815B5470AD72DC5987760 /* Pods-GoEuroTest.debug.xcconfig */,
+				3058DDE7024E06D16E40B58E /* Pods-GoEuroTest.release.xcconfig */,
+				FFB81F98244D3F8481FC643F /* Pods-GoEuroTestTests.debug.xcconfig */,
+				C0AD1A3A46B59275CDDC6D19 /* Pods-GoEuroTestTests.release.xcconfig */,
+				84F59A7EA0714C8BB1F00655 /* Pods-GoEuroTestUITests.debug.xcconfig */,
+				D7820683A79D2A42DE0ECED4 /* Pods-GoEuroTestUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4699249BF71CD198BAA1AC01 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				19D070BADBAF3796E8D81EB0 /* Pods_GoEuroTest.framework */,
+				1B32A8EE384B69705340B181 /* Pods_GoEuroTestTests.framework */,
+				426BA3DFA354543C6203AA44 /* Pods_GoEuroTestUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C7C98E421DDE3F1500B59D5E = {
+			isa = PBXGroup;
+			children = (
+				C7C98E4D1DDE3F1500B59D5E /* GoEuroTest */,
+				C7C98E651DDE3F1500B59D5E /* GoEuroTestTests */,
+				C7C98E701DDE3F1500B59D5E /* GoEuroTestUITests */,
+				C7C98E4C1DDE3F1500B59D5E /* Products */,
+				30D1350FAC7D1F3E857F688B /* Pods */,
+				4699249BF71CD198BAA1AC01 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C7C98E4C1DDE3F1500B59D5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C7C98E4B1DDE3F1500B59D5E /* GoEuroTest.app */,
+				C7C98E621DDE3F1500B59D5E /* GoEuroTestTests.xctest */,
+				C7C98E6D1DDE3F1500B59D5E /* GoEuroTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C7C98E4D1DDE3F1500B59D5E /* GoEuroTest */ = {
+			isa = PBXGroup;
+			children = (
+				C7C98EA91DDEFF9300B59D5E /* Service */,
+				C7C98EA81DDEFF8C00B59D5E /* Helper */,
+				C7C98E9B1DDEE3C600B59D5E /* Models */,
+				C7C98EB91DDF40C000B59D5E /* ListView */,
+				C7C98E4E1DDE3F1500B59D5E /* AppDelegate.swift */,
+				C7C98E501DDE3F1500B59D5E /* ViewController.swift */,
+				C7C98E521DDE3F1500B59D5E /* Main.storyboard */,
+				C7C98E581DDE3F1500B59D5E /* Assets.xcassets */,
+				C7C98E5A1DDE3F1500B59D5E /* LaunchScreen.storyboard */,
+				C78CFDD71DE0D82A00003B5B /* Gilroy-ExtraBold.otf */,
+				C78CFDD81DE0D82A00003B5B /* Gilroy-Light.otf */,
+				C7C98E5D1DDE3F1500B59D5E /* Info.plist */,
+				C78CFDE11DE0FFD400003B5B /* FlightViewController.swift */,
+				C78CFDDF1DE0FFB900003B5B /* TrainViewController.swift */,
+				C78CFDDD1DE0FF8600003B5B /* BusViewController.swift */,
+			);
+			path = GoEuroTest;
+			sourceTree = "<group>";
+		};
+		C7C98E651DDE3F1500B59D5E /* GoEuroTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				C7C98E661DDE3F1500B59D5E /* GoEuroTestTests.swift */,
+				C7C98E681DDE3F1500B59D5E /* Info.plist */,
+			);
+			path = GoEuroTestTests;
+			sourceTree = "<group>";
+		};
+		C7C98E701DDE3F1500B59D5E /* GoEuroTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C7C98E711DDE3F1500B59D5E /* GoEuroTestUITests.swift */,
+				C7C98E731DDE3F1500B59D5E /* Info.plist */,
+			);
+			path = GoEuroTestUITests;
+			sourceTree = "<group>";
+		};
+		C7C98E9B1DDEE3C600B59D5E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C7C98EB01DDF01E900B59D5E /* Entity */,
+				C7C98E9C1DDEE4EE00B59D5E /* TrainEuro+CoreDataClass.swift */,
+				C7C98E9D1DDEE4EE00B59D5E /* TrainEuro+CoreDataProperties.swift */,
+				C7C98E9E1DDEE4EE00B59D5E /* BusEuro+CoreDataClass.swift */,
+				C7C98E9F1DDEE4EE00B59D5E /* BusEuro+CoreDataProperties.swift */,
+				C7C98EA01DDEE4EE00B59D5E /* AirEuro+CoreDataClass.swift */,
+				C7C98EA11DDEE4EE00B59D5E /* AirEuro+CoreDataProperties.swift */,
+				C7C98E551DDE3F1500B59D5E /* GoEuroTest.xcdatamodeld */,
+			);
+			name = Models;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		C7C98EA81DDEFF8C00B59D5E /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				C7C98EAD1DDF017700B59D5E /* Extensions */,
+				C7C98EAC1DDF016F00B59D5E /* Enums */,
+				C7C98EC71DDF59A000B59D5E /* Constants.swift */,
+				C78CFDDB1DE0E68A00003B5B /* Helper.swift */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+		C7C98EA91DDEFF9300B59D5E /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				C7C98EAE1DDF01B200B59D5E /* GoEuroSingleton.swift */,
+				C7C98EB31DDF0DAD00B59D5E /* NetworkManager.swift */,
+			);
+			name = Service;
+			sourceTree = "<group>";
+		};
+		C7C98EAC1DDF016F00B59D5E /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				C7C98EAA1DDEFFC600B59D5E /* Enums.swift */,
+			);
+			name = Enums;
+			sourceTree = "<group>";
+		};
+		C7C98EAD1DDF017700B59D5E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		C7C98EB01DDF01E900B59D5E /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				C7C98EB11DDF021100B59D5E /* TravelModel.swift */,
+			);
+			name = Entity;
+			sourceTree = "<group>";
+		};
+		C7C98EB91DDF40C000B59D5E /* ListView */ = {
+			isa = PBXGroup;
+			children = (
+				C7C98EC51DDF4C1C00B59D5E /* Views */,
+				C7C98EC41DDF4C0B00B59D5E /* Modules */,
+			);
+			name = ListView;
+			sourceTree = "<group>";
+		};
+		C7C98EC41DDF4C0B00B59D5E /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				C7C98EBA1DDF410100B59D5E /* ListViewController.swift */,
+				C7C98EBE1DDF412700B59D5E /* ListViewPresenter.swift */,
+				C7C98EBC1DDF411900B59D5E /* ListViewInteractor.swift */,
+				C7C98EC01DDF413D00B59D5E /* ListViewRouting.swift */,
+				C7C98EC21DDF415400B59D5E /* ListViewAssembly.swift */,
+			);
+			name = Modules;
+			sourceTree = "<group>";
+		};
+		C7C98EC51DDF4C1C00B59D5E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C7C98EC61DDF4C3E00B59D5E /* Cells */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		C7C98EC61DDF4C3E00B59D5E /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				C78CFDD51DE05A7800003B5B /* TravelTableViewCell.swift */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C7C98E4A1DDE3F1500B59D5E /* GoEuroTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7C98E761DDE3F1500B59D5E /* Build configuration list for PBXNativeTarget "GoEuroTest" */;
+			buildPhases = (
+				73BC9B885FA9B6F31ECDE349 /* [CP] Check Pods Manifest.lock */,
+				C7C98E471DDE3F1500B59D5E /* Sources */,
+				C7C98E481DDE3F1500B59D5E /* Frameworks */,
+				C7C98E491DDE3F1500B59D5E /* Resources */,
+				661CB5FF6CC5B84D5E741A6E /* [CP] Embed Pods Frameworks */,
+				EF80D980811464C3DC2CAA13 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoEuroTest;
+			productName = GoEuroTest;
+			productReference = C7C98E4B1DDE3F1500B59D5E /* GoEuroTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C7C98E611DDE3F1500B59D5E /* GoEuroTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7C98E791DDE3F1500B59D5E /* Build configuration list for PBXNativeTarget "GoEuroTestTests" */;
+			buildPhases = (
+				A6BD19174F56EBB8326429E3 /* [CP] Check Pods Manifest.lock */,
+				C7C98E5E1DDE3F1500B59D5E /* Sources */,
+				C7C98E5F1DDE3F1500B59D5E /* Frameworks */,
+				C7C98E601DDE3F1500B59D5E /* Resources */,
+				38BAA60DB052F1364D79C96C /* [CP] Embed Pods Frameworks */,
+				800591298E20AD55902E50CB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C7C98E641DDE3F1500B59D5E /* PBXTargetDependency */,
+			);
+			name = GoEuroTestTests;
+			productName = GoEuroTestTests;
+			productReference = C7C98E621DDE3F1500B59D5E /* GoEuroTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C7C98E6C1DDE3F1500B59D5E /* GoEuroTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7C98E7C1DDE3F1500B59D5E /* Build configuration list for PBXNativeTarget "GoEuroTestUITests" */;
+			buildPhases = (
+				3490C83E47EB2E609CFD7AEF /* [CP] Check Pods Manifest.lock */,
+				C7C98E691DDE3F1500B59D5E /* Sources */,
+				C7C98E6A1DDE3F1500B59D5E /* Frameworks */,
+				C7C98E6B1DDE3F1500B59D5E /* Resources */,
+				B97CA04494E3B327DCD549F6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C7C98E6F1DDE3F1500B59D5E /* PBXTargetDependency */,
+			);
+			name = GoEuroTestUITests;
+			productName = GoEuroTestUITests;
+			productReference = C7C98E6D1DDE3F1500B59D5E /* GoEuroTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C7C98E431DDE3F1500B59D5E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Murtaza Raza";
+				TargetAttributes = {
+					C7C98E4A1DDE3F1500B59D5E = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					C7C98E611DDE3F1500B59D5E = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C7C98E4A1DDE3F1500B59D5E;
+					};
+					C7C98E6C1DDE3F1500B59D5E = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C7C98E4A1DDE3F1500B59D5E;
+					};
+				};
+			};
+			buildConfigurationList = C7C98E461DDE3F1500B59D5E /* Build configuration list for PBXProject "GoEuroTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C7C98E421DDE3F1500B59D5E;
+			productRefGroup = C7C98E4C1DDE3F1500B59D5E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C7C98E4A1DDE3F1500B59D5E /* GoEuroTest */,
+				C7C98E611DDE3F1500B59D5E /* GoEuroTestTests */,
+				C7C98E6C1DDE3F1500B59D5E /* GoEuroTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C7C98E491DDE3F1500B59D5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7C98E5C1DDE3F1500B59D5E /* LaunchScreen.storyboard in Resources */,
+				C7C98E591DDE3F1500B59D5E /* Assets.xcassets in Resources */,
+				C7C98E541DDE3F1500B59D5E /* Main.storyboard in Resources */,
+				C78CFDDA1DE0D82A00003B5B /* Gilroy-Light.otf in Resources */,
+				C78CFDD91DE0D82A00003B5B /* Gilroy-ExtraBold.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7C98E601DDE3F1500B59D5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7C98E6B1DDE3F1500B59D5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3490C83E47EB2E609CFD7AEF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		38BAA60DB052F1364D79C96C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoEuroTestTests/Pods-GoEuroTestTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		661CB5FF6CC5B84D5E741A6E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoEuroTest/Pods-GoEuroTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		73BC9B885FA9B6F31ECDE349 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		800591298E20AD55902E50CB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoEuroTestTests/Pods-GoEuroTestTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6BD19174F56EBB8326429E3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B97CA04494E3B327DCD549F6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoEuroTestUITests/Pods-GoEuroTestUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF80D980811464C3DC2CAA13 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoEuroTest/Pods-GoEuroTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C7C98E471DDE3F1500B59D5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7C98EA71DDEE4EE00B59D5E /* AirEuro+CoreDataProperties.swift in Sources */,
+				C7C98EC81DDF59A000B59D5E /* Constants.swift in Sources */,
+				C78CFDE21DE0FFD400003B5B /* FlightViewController.swift in Sources */,
+				C7C98EBF1DDF412700B59D5E /* ListViewPresenter.swift in Sources */,
+				C7C98E511DDE3F1500B59D5E /* ViewController.swift in Sources */,
+				C7C98EAB1DDEFFC600B59D5E /* Enums.swift in Sources */,
+				C7C98EB41DDF0DAD00B59D5E /* NetworkManager.swift in Sources */,
+				C7C98EB21DDF021100B59D5E /* TravelModel.swift in Sources */,
+				C78CFDDE1DE0FF8600003B5B /* BusViewController.swift in Sources */,
+				C7C98EA61DDEE4EE00B59D5E /* AirEuro+CoreDataClass.swift in Sources */,
+				C78CFDDC1DE0E68A00003B5B /* Helper.swift in Sources */,
+				C7C98EBB1DDF410100B59D5E /* ListViewController.swift in Sources */,
+				C7C98EA41DDEE4EE00B59D5E /* BusEuro+CoreDataClass.swift in Sources */,
+				C7C98EA21DDEE4EE00B59D5E /* TrainEuro+CoreDataClass.swift in Sources */,
+				C7C98EBD1DDF411900B59D5E /* ListViewInteractor.swift in Sources */,
+				C7C98E4F1DDE3F1500B59D5E /* AppDelegate.swift in Sources */,
+				C78CFDD61DE05A7800003B5B /* TravelTableViewCell.swift in Sources */,
+				C7C98EA51DDEE4EE00B59D5E /* BusEuro+CoreDataProperties.swift in Sources */,
+				C78CFDE01DE0FFB900003B5B /* TrainViewController.swift in Sources */,
+				C7C98EA31DDEE4EE00B59D5E /* TrainEuro+CoreDataProperties.swift in Sources */,
+				C7C98EC31DDF415400B59D5E /* ListViewAssembly.swift in Sources */,
+				C7C98EAF1DDF01B200B59D5E /* GoEuroSingleton.swift in Sources */,
+				C7C98EC11DDF413D00B59D5E /* ListViewRouting.swift in Sources */,
+				C7C98E571DDE3F1500B59D5E /* GoEuroTest.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7C98E5E1DDE3F1500B59D5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7C98EB61DDF190900B59D5E /* Enums.swift in Sources */,
+				C7C98EB71DDF190900B59D5E /* TravelModel.swift in Sources */,
+				C7C98EB51DDF185600B59D5E /* NetworkManager.swift in Sources */,
+				C7C98E671DDE3F1500B59D5E /* GoEuroTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7C98E691DDE3F1500B59D5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7C98E721DDE3F1500B59D5E /* GoEuroTestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C7C98E641DDE3F1500B59D5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C7C98E4A1DDE3F1500B59D5E /* GoEuroTest */;
+			targetProxy = C7C98E631DDE3F1500B59D5E /* PBXContainerItemProxy */;
+		};
+		C7C98E6F1DDE3F1500B59D5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C7C98E4A1DDE3F1500B59D5E /* GoEuroTest */;
+			targetProxy = C7C98E6E1DDE3F1500B59D5E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C7C98E521DDE3F1500B59D5E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7C98E531DDE3F1500B59D5E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C7C98E5A1DDE3F1500B59D5E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7C98E5B1DDE3F1500B59D5E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C7C98E741DDE3F1500B59D5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C7C98E751DDE3F1500B59D5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C7C98E771DDE3F1500B59D5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36C815B5470AD72DC5987760 /* Pods-GoEuroTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GoEuroTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.murtaza.GoEuroTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C7C98E781DDE3F1500B59D5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3058DDE7024E06D16E40B58E /* Pods-GoEuroTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GoEuroTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.murtaza.GoEuroTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		C7C98E7A1DDE3F1500B59D5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFB81F98244D3F8481FC643F /* Pods-GoEuroTestTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GoEuroTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.murtaza.GoEuroTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoEuroTest.app/GoEuroTest";
+			};
+			name = Debug;
+		};
+		C7C98E7B1DDE3F1500B59D5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0AD1A3A46B59275CDDC6D19 /* Pods-GoEuroTestTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GoEuroTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.murtaza.GoEuroTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoEuroTest.app/GoEuroTest";
+			};
+			name = Release;
+		};
+		C7C98E7D1DDE3F1500B59D5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84F59A7EA0714C8BB1F00655 /* Pods-GoEuroTestUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = GoEuroTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.murtaza.GoEuroTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = GoEuroTest;
+			};
+			name = Debug;
+		};
+		C7C98E7E1DDE3F1500B59D5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7820683A79D2A42DE0ECED4 /* Pods-GoEuroTestUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = GoEuroTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.murtaza.GoEuroTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = GoEuroTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C7C98E461DDE3F1500B59D5E /* Build configuration list for PBXProject "GoEuroTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7C98E741DDE3F1500B59D5E /* Debug */,
+				C7C98E751DDE3F1500B59D5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7C98E761DDE3F1500B59D5E /* Build configuration list for PBXNativeTarget "GoEuroTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7C98E771DDE3F1500B59D5E /* Debug */,
+				C7C98E781DDE3F1500B59D5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7C98E791DDE3F1500B59D5E /* Build configuration list for PBXNativeTarget "GoEuroTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7C98E7A1DDE3F1500B59D5E /* Debug */,
+				C7C98E7B1DDE3F1500B59D5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7C98E7C1DDE3F1500B59D5E /* Build configuration list for PBXNativeTarget "GoEuroTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7C98E7D1DDE3F1500B59D5E /* Debug */,
+				C7C98E7E1DDE3F1500B59D5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C7C98E551DDE3F1500B59D5E /* GoEuroTest.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C7C98E561DDE3F1500B59D5E /* GoEuroTest.xcdatamodel */,
+			);
+			currentVersion = C7C98E561DDE3F1500B59D5E /* GoEuroTest.xcdatamodel */;
+			name = GoEuroTest.xcdatamodeld;
+			path = GoEuroTest/GoEuroTest.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C7C98E431DDE3F1500B59D5E /* Project object */;
+}
