@@ -11,7 +11,7 @@ import UIKit
 
 class Helper {
     
-    
+    // online help// 
    func formatPriceLabel(_ amount:String) -> NSMutableAttributedString?
     {
         
@@ -38,7 +38,6 @@ class Helper {
         attrString.addAttribute(NSFontAttributeName, value: digitsFont, range: NSRange(location: 0, length: amountString.characters.count));
          attrString.addAttribute(NSFontAttributeName, value: decimalFont, range: NSRange(location: strt, length: end));
         
-//        attrString.addAttributes([NSFontAttributeName:decimalFont, NSBaselineOffsetAttributeName:7], range: NSRange(location: strt, length: end));
         return attrString;
     }
     

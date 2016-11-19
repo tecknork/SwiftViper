@@ -8,6 +8,7 @@
 
 import Foundation
 
+//Unsused//
 
 class GoEuroSingleton {
     
