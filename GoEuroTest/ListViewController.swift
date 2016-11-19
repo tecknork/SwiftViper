@@ -233,7 +233,14 @@ extension ListViewController:UITableViewDelegate,UITableViewDataSource
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let errorAlert = UIAlertController(title: ErrorTitle, message: ErrorMessage, preferredStyle: .alert)
         
+        errorAlert.addAction(UIAlertAction(title: "Ok", style: .default, handler: { (action) in
+            errorAlert.dismiss(animated: true, completion: nil)
+        }))
+        
+        present(errorAlert, animated: true, completion: nil)
+
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {

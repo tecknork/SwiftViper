@@ -19,7 +19,7 @@
         <scene sceneID="72S-Ik-wLp">
             <objects>
                 <navigationController navigationBarHidden="YES" id="ud9-Px-1BD" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="fia-He-xZC">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="fia-He-xZC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -202,7 +202,7 @@
                                                             </constraints>
                                                         </imageView>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="24:00 - 1:40" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3gc-bG-yhB">
-                                                            <rect key="frame" x="20" y="95.5" width="75.5" height="16.5"/>
+                                                            <rect key="frame" x="20" y="95.5" width="76" height="16.5"/>
                                                             <fontDescription key="fontDescription" name="Gilroy-Light" family="Gilroy" pointSize="14"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
@@ -437,7 +437,7 @@
                                 <rect key="frame" x="-0.5" y="110.5" width="375" height="507"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="TravelTableViewCell" rowHeight="150" id="OTK-QD-jQj" customClass="TravelTableViewCell" customModule="GoEuroTest" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="TravelTableViewCell" focusStyle="custom" rowHeight="150" id="OTK-QD-jQj" customClass="TravelTableViewCell" customModule="GoEuroTest" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="150"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="OTK-QD-jQj" id="kyM-xL-dAR">
@@ -696,7 +696,7 @@
                                 <rect key="frame" x="-0.5" y="110.5" width="375" height="507"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="TravelTableViewCell" rowHeight="150" id="Qqf-Bf-LVR" customClass="TravelTableViewCell" customModule="GoEuroTest" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="TravelTableViewCell" focusStyle="custom" rowHeight="150" id="Qqf-Bf-LVR" customClass="TravelTableViewCell" customModule="GoEuroTest" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="150"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Qqf-Bf-LVR" id="w3Z-kY-cvi">
@@ -837,7 +837,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="tgI-aD-gRd" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Train" image="train2" id="TkT-I5-rf6"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="C4G-ln-iDP">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="C4G-ln-iDP">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -856,7 +856,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Nrb-Hf-l58" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Bus" image="bus" id="gpd-JC-0cd"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="BXv-Nz-bJX">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="BXv-Nz-bJX">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -875,7 +875,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="grs-3i-TmZ" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Flight" image="PLANE" id="bsQ-7d-gDi"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="KWh-n2-Noj">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="KWh-n2-Noj">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>

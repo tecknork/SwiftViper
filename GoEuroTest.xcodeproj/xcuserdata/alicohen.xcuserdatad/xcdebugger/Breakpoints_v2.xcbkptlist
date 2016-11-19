@@ -58,11 +58,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GoEuroTest/NetworkManager.swift"
-            timestampString = "501160863.429524"
+            timestampString = "501289348.277906"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "48"
-            endingLineNumber = "48"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
             landmarkName = "fetchDataFromApi(type:closure:)"
             landmarkType = "7">
          </BreakpointContent>

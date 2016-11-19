@@ -12,14 +12,10 @@ import UIKit
 protocol FetchDataProtocol : class{
     
     func fetchDataFromApi(type:TravelType , closure: @escaping (NSError?, [TravelModel]?)->Void) -> Void
-    func downloadLogo(url: String, closure:@escaping (String, UIImage?)->Void) -> Void
+ 
 }
 
-//protocol ImageDownloadProtocol :class {
-//    
-//    func downloadLogo(url: String, closure:@escaping (String, UIImage?)->Void) -> Void
-//    
-//}
+
 
 class NetworkManager :FetchDataProtocol {
     
@@ -83,23 +79,6 @@ class NetworkManager :FetchDataProtocol {
     
     
     
-    func downloadLogo(url: String, closure:@escaping (String, UIImage?)->Void) ->Void {
-        guard let Url = URL(string: url) else {
-            closure(url, nil);
-            return;
-        }
-        do {
-            let imgData = try Data(contentsOf: Url)
-            if let img = UIImage(data: imgData) {
-                closure(url, img);
-            } else {
-                closure(url, nil);
-            }
-        } catch let error as NSError {
-            print("Error parsing JSON: \(error)")
-            
-        }
-    }
     
     
 }
