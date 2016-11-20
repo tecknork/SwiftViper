@@ -24,7 +24,7 @@ protocol ListViewInteractorOutput:class {
     
 }
 
-
+//Interactor - Business Layer
 class ListViewInteractor:ListViewInteractorInput{
     
    weak var presenter: ListViewInteractorOutput!

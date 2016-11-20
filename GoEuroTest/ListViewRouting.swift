@@ -7,19 +7,19 @@
 //
 
 import Foundation
-
+//Routing
 protocol ListViewRoutingInput: class {
     func navigateToDetail()
     
 }
-
+//Routing
 class ListViewRouting:ListViewRoutingInput{
     
     weak var viewController :ListViewController!
 
     
     func navigateToDetail(){
-        
+        viewController.showDetailError()
     }
     
     

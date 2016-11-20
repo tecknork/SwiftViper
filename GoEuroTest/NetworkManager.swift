@@ -9,6 +9,8 @@
 import Foundation
 import UIKit
 
+
+//DataManagerProtocol
 protocol FetchDataProtocol : class{
     
     func fetchDataFromApi(type:TravelType , closure: @escaping (NSError?, [TravelModel]?)->Void) -> Void
@@ -16,9 +18,10 @@ protocol FetchDataProtocol : class{
 }
 
 
-
+//DataManager
 class NetworkManager :FetchDataProtocol {
     
+    //MetaData For API
     struct MetaData {
         static let id = "id"
         static let logo = "provider_logo"
@@ -29,6 +32,8 @@ class NetworkManager :FetchDataProtocol {
         
     }
     
+    
+    //FetchApi for Flight , Car, Air
     func fetchDataFromApi(type:TravelType , closure: @escaping (NSError?, [TravelModel]?)->Void) -> Void{
         
         let request = URLRequest(url: type.Url)
